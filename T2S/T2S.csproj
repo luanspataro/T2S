@@ -30,13 +30,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Home\Privacy.cshtml" />
+    <Content Remove="Views\docs\Privacy.cshtml" />
     <Content Remove="wwwroot\assets\favicon\logo t2s.png" />
     <Content Remove="wwwroot\assets\img\about\about-img-1.png" />
     <Content Remove="wwwroot\assets\img\hero\hero-blob-1.svg" />
     <Content Remove="wwwroot\assets\img\hero\seguranca.jpg" />
     <Content Remove="wwwroot\assets\img\team\team-img-3.jpg" />
     <Content Remove="wwwroot\assets\img\team\team-img-4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.1" />
   </ItemGroup>
 
 </Project>
