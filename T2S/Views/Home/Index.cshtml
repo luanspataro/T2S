@@ -1,0 +1,362 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>T2S</title>
+    <meta name="description" content="T2S">
+    <meta name="author" content="BootstrapBrain">
+
+    <!-- Ícones -->
+    <link rel="icon" type="image/png" sizes="512x512" href="~/assets/favicon/favicon-512x512.png">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/assets/css/wave-bsb.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#bsb-tpl-navbar" data-bs-smooth-scroll="true" tabindex="0">
+    <header id="header" class="sticky-top bsb-tpl-header-sticky bsb-tpl-header-sticky-animationX">
+
+        <!-- Home -->
+        <nav id="scrollspyNav" class="navbar navbar-expand-lg navbar-dark bg-dark bsb-navbar bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-sticky" data-bsb-sticky-target="#header">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="~/assets/img/branding/logo t2s.png" class="bsb-tpl-logo" alt="">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul id="bsb-tpl-navbar" class="navbar-nav justify-content-end flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#scrollspyNav" aria-current="page" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyServices" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Blockchain</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyAbout" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Vantagens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyTeam" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Time</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyBlog" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Saiba Mais</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="scrollspyHero" class="bsb-hero-2 bsb-tpl-bg-white py-5 py-xl-8 py-xxl-10">
+        <div class="container overflow-hidden">
+            <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
+                <div class="col-12 col-lg-6 order-1 order-lg-0">
+                    <h1 class="display-3 fw-bolder mb-3">Blockchain: Maior eficiência e<br> menores custos.</h1>
+                    <p class="fs-4 mb-5">Oferecemos os serviços necessários para elevar sua empresa a novos patamares.</p>
+                    <div class="d-grid gap-2 d-sm-flex">
+                        <a href="https://forms.gle/ijvYuRDFCNruA6mT8"><button type="button" class="btn btn-primary bsb-btn-3xl rounded-pill">Saiba Mais</button></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 text-center">
+                    <img class="img-fluid" loading="lazy" src="~/assets/img/hero/pngwing.com.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main" class="bg-dark">
+
+        <!-- Blockchain -->
+        <section id="scrollspyServices" class="py-5 py-xl-8 bsb-section-py-xxl-1 bg-dark">
+            <div class="container mb-5 mb-md-6 mb-xl-10">
+                <div class="row justify-content-md-center">
+                    <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+                        <h2 class="display-3 fw-bolder mb-4 text-white">Contrate-nos para atingir a excelência operacional junto a Blockchain</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container overflow-hidden bg-dark">
+            <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
+                <div class="col-11 col-sm-6 col-lg-3 mb-5">
+                        <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-pie-chart" viewBox="0 0 16 16">
+                                <path d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                            </svg>
+                        </div>
+                    <h4 class="mb-3 text-white">Captação de Recursos</h4>
+                    <p class="mb-3 text-white">Oferece acesso ao financiamento alternativo, redução de custos e intermediários, aumenta a transparência e confiança, e permite o alcance de investidores globais, facilitando a obtenção de fundos de forma eficiente e transparente em escala internacional.</p>
+                    </div>
+                    <div class="col-11 col-sm-6 col-lg-3">
+                        <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-shield-shaded" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 14.933a1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+                        </svg>
+                        </div>
+                    <h4 class="mb-3 text-white">Proteção Contra Fraudes</h4>
+                    <p class="mb-3 text-white">Através de uma trilha de auditoria imutável, dificulta a falsificação de dados e aumenta a segurança das transações devido à sua natureza descentralizada e transparente. Isso fortalece a confiança e protege contra atividades fraudulentas.</p>
+                    </div>
+                    <div class="col-11 col-sm-6 col-lg-3">
+                        <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+                            <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                        </svg>
+                        </svg>
+                        </div>
+                    <h4 class="mb-3 text-white">Confiabilidade</h4>
+                    <p class="mb-3 text-white">Devido à sua natureza descentralizada e registro imutável de transações, fornece uma visão clara e verificável das operações, promovendo a confiança entre as partes envolvidas e garantindo a integridade dos dados empresariais.</p>
+                    </div>
+                    <div class="col-11 col-sm-6 col-lg-3">
+                        <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-lightning" viewBox="0 0 16 16">
+                            <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1z" />
+                        </svg>
+                        </div>
+                    <h4 class="mb-3 text-white">Processos Melhores</h4>
+                    <p class="mb-3 text-white">Automatiza tarefas, simplifica transações e proporciona transparência na gestão da cadeia de suprimentos, resultando em eficiência operacional, redução de custos e maior confiabilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Vantagens -->
+            <section id="scrollspyAbout" class="bsb-tpl-bg-alice-blue py-5 py-xl-8 bsb-section-py-xxl-1">
+                <div class="container">
+                    <div class="row gy-5 gy-lg-0 align-items-lg-center">
+                        <div class="col-12 col-lg-6">
+                            <img class="img-fluid rounded" loading="lazy" src="~/assets/img/about/blockchain.png" alt="">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="row justify-content-xl-end">
+                                <div class="col-12 col-xl-11">
+                                    <h2 class="display-3 fw-bolder mb-4">A solução <br> está aqui</h2>
+                                <p class="fs-4 mb-5">Nos comprometemos com os mais altos padrões de transparência e profissionalismo, garantindo o sucesso da sua empresa.</p>
+                                    <div class="accordion accordion-flush" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Valores Competitivos
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Oferecemos valores competitivos sem perder qualidade. Entendemos que o custo é um fator importante, e procuramos sempre entregar o melhor valor.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Equipe Habilidosa
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Nosso time é composto por pessoas experientes e habilidosas, que estão prontas e atualizadas o suficiente para entregar o melhor projeto. Investimos constantemente no desenvolvimento do nosso time.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Suporte de Alta Qualidade
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Nossos clientes são nossa prioridade, estamos sempre disponíveis para ajudar em qualquer problema que encontrar. O suporte é um dos pontos fortes que mais nos orgulhamos de oferecer aos clientes.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container pt-5 pt-xl-8 bsb-section-pt-xxl-1">
+                    <div class="row gy-4">
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="card border-0 border-bottom border-primary shadow-sm">
+                                <div class="card-body text-center p-4 p-xxl-5">
+                                    <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-yellow text-primary border-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-stack-overflow" viewBox="0 0 16 16">
+                                            <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282z" />
+                                            <path d="M3.857 13.145h7.137v-1.428H3.857zM10.254 0 9.108.852l4.26 5.727 1.146-.852zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="h1 mb-2">400+</h3>
+                                    <p class="fs-5 mb-0 text-secondary">Projetos Concluídos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="card border-0 border-bottom border-primary shadow-sm">
+                                <div class="card-body text-center p-4 p-xxl-5">
+                                    <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-green text-primary border-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="h1 mb-2">140+</h3>
+                                    <p class="fs-5 mb-0 text-secondary">Empresas que Atendemos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="card border-0 border-bottom border-primary shadow-sm">
+                                <div class="card-body text-center p-4 p-xxl-5">
+                                    <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-pink text-primary border-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-droplet" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z" />
+                                            <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="h1 mb-2">500.000+</h3>
+                                    <p class="fs-5 mb-0 text-secondary">Horas de Programação</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="card border-0 border-bottom border-primary shadow-sm">
+                                <div class="card-body text-center p-4 p-xxl-5">
+                                    <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-cyan text-primary border-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bug" viewBox="0 0 16 16">
+                                            <path d="M4.355.522a.5.5 0 0 1 .623.333l.291.956A5 5 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A5 5 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623M4 7v4a4 4 0 0 0 3.5 3.97V7zm4.5 0v7.97A4 4 0 0 0 12 11V7zM12 6a4 4 0 0 0-1.334-2.982A3.98 3.98 0 0 0 8 2a3.98 3.98 0 0 0-2.667 1.018A4 4 0 0 0 4 6z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="h1 mb-2">100%</h3>
+                                    <p class="fs-5 mb-0 text-secondary">Projetos Entregues</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Time -->
+            <section id="scrollspyTeam" class="py-5 py-xl-8 bsb-section-py-xxl-1 bg-white">
+                <div class="container mb-5 mb-md-6 mb-xl-10">
+                    <div class="row justify-content-md-center">
+                        <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+                            <h2 class="display-3 fw-bolder mb-4">Somos uma equipe de profissionais<br>prontos para entregar soluções.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container overflow-hidden">
+                    <div class="row gy-4 gy-lg-0 gx-xxl-5 justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+                                <div class="card-body p-0">
+                                    <figure class="m-0 p-0">
+                                        <img class="img-fluid" loading="lazy" src="~/assets/img/team/team-img-1.jpg" alt="">
+                                        <figcaption class="m-0 p-4">
+                                            <h4 class="mb-1">Rodrigo Salgado</h4>
+                                            <p class="text-secondary mb-0">Diretor</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+                                <div class="card-body p-0">
+                                    <figure class="m-0 p-0">
+                                        <img class="img-fluid" loading="lazy" src="~/assets/img/team/team-img-2.jpg" alt="">
+                                        <figcaption class="m-0 p-4">
+                                            <h4 class="mb-1">Ricardo Pupo</h4>
+                                            <p class="text-secondary mb-0">Diretor</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Saiba Mais -->
+        <section id="scrollspyBlog" class="bsb-tpl-bg-alice-blue py-5 py-xl-8 bsb-section-py-xxl-1">
+            <div class="container">
+                <div class="row gy-5 gy-lg-0 align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6 text-center mx-auto">
+                        <h2 class="display-3 fw-bolder mb-4">Venha com a gente!</h2>
+                        <p class="fs-4 mb-4 mb-xl-5">Preencha o formulário e entraremos em contato</p>
+                        <a href="https://forms.gle/ijvYuRDFCNruA6mT8" class="btn bsb-btn-2xl btn-primary rounded-pill">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer bg-dark">
+
+        <section class="bg-dark py-4 py-md-5 py-xl-8 border-top border-dark bg-dark">
+            <div class="container overflow-hidden">
+                <div class="row gy-4 gy-lg-0 justify-content-xl-between">
+                    <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+                        <div class="widget">
+                            <a href="#!">
+                                <img src="~/assets/img/branding/logo t2s.png" alt="" class="bsb-tpl-logo-footer">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+                        <div class="widget">
+                                <p class="mb-1">
+                                    <a class="link-secondary text-decoration-none">Praça da República, 87 - Sala 111 - Centro - Santos/SP</a>
+                                </p>
+                            <p class="mb-1">
+                                <a class="link-secondary text-decoration-none">(13) 3329-6601</a>
+                            </p>
+                            <p class="mb-0">
+                                <a class="link-secondary text-decoration-none">vendas@t2s.com.br </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/assets/controller/project-2.js"></script>
+    <script src="~/assets/controller/wave-bsb.js"></script>
+</body>
+</html>

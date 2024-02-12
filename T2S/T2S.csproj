@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\assets\img\blog\**" />
+    <Compile Remove="wwwroot\assets\img\contact\**" />
+    <Compile Remove="wwwroot\assets\img\cta\**" />
+    <Compile Remove="wwwroot\assets\img\portfolio\**" />
+    <Compile Remove="wwwroot\assets\img\testimonial\**" />
+    <Content Remove="wwwroot\assets\img\blog\**" />
+    <Content Remove="wwwroot\assets\img\contact\**" />
+    <Content Remove="wwwroot\assets\img\cta\**" />
+    <Content Remove="wwwroot\assets\img\portfolio\**" />
+    <Content Remove="wwwroot\assets\img\testimonial\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\blog\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\contact\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\cta\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\portfolio\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\testimonial\**" />
+    <None Remove="wwwroot\assets\img\blog\**" />
+    <None Remove="wwwroot\assets\img\contact\**" />
+    <None Remove="wwwroot\assets\img\cta\**" />
+    <None Remove="wwwroot\assets\img\portfolio\**" />
+    <None Remove="wwwroot\assets\img\testimonial\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Privacy.cshtml" />
+    <Content Remove="wwwroot\assets\favicon\logo t2s.png" />
+    <Content Remove="wwwroot\assets\img\about\about-img-1.png" />
+    <Content Remove="wwwroot\assets\img\hero\hero-blob-1.svg" />
+    <Content Remove="wwwroot\assets\img\hero\seguranca.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-img-3.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-img-4.jpg" />
+  </ItemGroup>
+
+</Project>
